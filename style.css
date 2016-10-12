@@ -4,12 +4,13 @@ div{
 	padding: 8px;
 	color:white ;
 	text-align:center;
-	font-size:40px;
+	font-size:20px;
+
 
 }
 #header{
 	font-family:Geneva;
-	text-align:center;
+	float:center;
 	font-style: italic;
 	font-size:80px;
 	font-weight: bold;
@@ -26,8 +27,6 @@ div{
 #content img {
 	float: left;
 	size:30%;
-	
-	
 }
 
 #menu{
@@ -91,7 +90,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-background-color:#BC8F8F;}
+background-color:#BC8F8F;
+font-size:40pxж
+}
 
 li {
     float: left;
@@ -101,14 +102,17 @@ li {
     padding: 10px;}
 body.home{
     background-image: url("wau.jpg");
-	background-color:#cccccc;
-    background-size: cover;
-    background-repeat: no-repeat;}
+	background-color:#BC8F8F;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
 body.about{
     background-color:#BC8F8F;
     background-size: 100%;
     background-repeat: no-repeat;
-    text-align:justify;}
+    text-align:justify;
+
+	}
 	
 }div.about{
 	float:right;}
@@ -116,10 +120,13 @@ body.about{
 body.menu{
 	background-color:#BC8F8F;
     background-size: 100%;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+	
+}
 div.menu {
 	font-size: 20px;
-floar:center;}
+     float:center;
+	 color:white;}
 
 
 li a {
@@ -141,16 +148,16 @@ padding: 14px 16px;}
 
 
 h1{
-	font-size:30px;
-	text-align:center;
+	font-size:35px;
+	float::center;
 	color:#8B0000;}
 
 p{
-	font-size:30px;
+	font-size:35px;
 	text-align:left;
 	color:#8B0000;}
 p2{
-	font-size:25px;
+	font-size35px;
 	color:white;}
 
 .image{
@@ -165,7 +172,11 @@ p2{
 	font-size:35px;
      text-align:center;
      color:#8B0000; }
-
+#table{
+	align:center;
+	
+	
+}
  
 
 
